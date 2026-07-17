@@ -1,6 +1,7 @@
 name: build
 
 on:
+  workflow_dispatch: # 允许手动点击运行
   push:
     tags:
       - 'v*'
